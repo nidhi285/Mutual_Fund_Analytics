@@ -42,3 +42,30 @@ Kumari Nidhi Pandey
 Bluestock Fintech Internship
 
 June 2026
+## Dataset Description
+
+The dataset contains historical Mutual Fund NAV (Net Asset Value) data collected from MFAPI. It includes fund names, NAV values, and dates used for performance and risk analysis.
+
+## Setup Instructions
+
+1. Install Python 3.x
+2. Install required libraries using requirements.txt
+3. Configure PostgreSQL database
+4. Run data ingestion scripts
+
+## How to Run Project
+
+1. Run data_ingestion.py
+2. Store processed data in PostgreSQL
+3. Perform analysis using Python scripts
+4. Connect Tableau to PostgreSQL
+5. Open Tableau dashboard
+
+## Dashboard Information
+
+- Fund Performance Tracking
+- Benchmark Comparison
+- Risk Analysis (VaR & CVaR)
+- Sharpe Ratio Analysis
+- Category-wise Fund Insights
+- Interactive Filters and Visualizations
